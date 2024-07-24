@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background {
+    background-image: url('./Images/developer@2.jpg'); /* Replace 'background.jpg' with your background image file */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: greenyellow;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 20px;
+}
+h2{
+    color:pink;
+    text-shadow: 2px 2px 4px #000;
+}
+.card {
+    background-color: rebeccapurple;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.moving-image {
+    width: 100px;
+    height: 100px;
+    animation: moveImage 5s infinite;
+    border-radius: 5px;
+    box-shadow:  0 4px 8px pink;
+    
+}
+
+@keyframes moveImage {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(100px); }
+    100% { transform: translateX(0); }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.signinBtn:hover{
+
+    background-color: greenyellow;
+}
