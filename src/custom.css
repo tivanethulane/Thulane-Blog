@@ -31,7 +31,7 @@ h2{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin-bottom: 10%;
+  
 }
 
 .moving-image {
@@ -92,4 +92,18 @@ button {
     border-radius: 10px;
     padding: 10px;
     /* margin-left: 10px; */
+}
+footer {
+   
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    text-align: right;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+    
 }
