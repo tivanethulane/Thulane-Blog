@@ -31,6 +31,7 @@ h2{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-bottom: 10%;
 }
 
 .moving-image {
@@ -62,4 +63,33 @@ button {
 .signinBtn:hover{
 
     background-color: greenyellow;
+}
+.menu_Items a{
+    color:white;
+    font-family: 1000;
+    font-size: 30px;
+    border: #000;
+    text-shadow: pink;
+    text-decoration: none;
+  
+}
+.menu_Items a::after{
+    content: "|";
+}
+.menu_Items a:last-child::after{
+    content: "";
+}
+.menu_Items a:hover{
+    color:greenyellow;
+    font-weight: 1000;
+}
+.menu_Items{
+   
+    gap: 200px;
+    font-size: 20px;
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-left: 10px; */
 }
